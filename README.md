@@ -1,5 +1,8 @@
 # Macross SDF Importer for Blender 5.2
 
+> [!NOTE]
+> **Related project:** [Tzeentchnet/SDF_Macross — Vulkan PC static recompilation research for *Chou Jikuu Yousai Macross* (PS2)](https://github.com/Tzeentchnet/SDF_Macross)
+
 This add-on imports models, materials, textures, skeletal motions and stages
 from **Chou Jikuu Yousai Macross** (PS2, Japan, `SLPM-65405`). It reads
 straight from your own disc image or from extracted files.
@@ -11,6 +14,31 @@ straight from your own disc image or from extracted files.
 - **Stages:** `GD_xx` ground tile grids, object arrangements, fixed scenery and sky, instanced as linked duplicates.
 
 The game data is not included. You need your own disc image.
+
+## Visual examples
+
+All of these Blender renders use assets imported from the user's own game
+data.
+
+### Models and motion
+
+| VF-1J Battroid | Fighter to Gerwalk transformation |
+|:---:|:---:|
+| ![Front view of an imported VF-1J in Battroid mode](docs/images/vf-1j-battroid-front.png) | ![Front view of a VF-1J partway through its Fighter to Gerwalk transformation](docs/images/vf-1j-transformation-front.png) |
+| Rigged model in a neutral action pose | Imported transformation motion at an intermediate frame |
+
+### Enemy assets
+
+| Regult | Queadluun-Rau | Nousjadeul-Ger |
+|:---:|:---:|:---:|
+| ![Front view of an imported Regult Tactical Pod](docs/images/regult-front.png) | ![Front view of imported Queadluun-Rau power armour](docs/images/queadluun-rau-front.png) | ![Front view of an imported Nousjadeul-Ger battle suit](docs/images/nousjadeul-ger-front.png) |
+
+### Stages
+
+![Imported Macross City stage with buildings, roads and terrain](docs/images/macross-city-stage.png)
+
+*Macross City assembled from the imported ground grid, object placements and
+linked scenery instances.*
 
 ## Install
 
