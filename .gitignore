@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+dist/
+# never commit game data or renders
+*.iso
+*.CMP
+*.MRG
+*.tm2
+*.mdl
+*.blend
+*.blend1

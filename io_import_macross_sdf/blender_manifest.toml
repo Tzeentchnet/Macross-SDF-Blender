@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "io_import_macross_sdf"
+version = "0.1.0"
+name = "Macross SDF Importer"
+tagline = "Import Macross SDF (PS2) models, motions, textures and stages"
+maintainer = "Macross-SDF-Blender contributors"
+type = "add-on"
+
+blender_version_min = "5.0.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+tags = ["Import-Export"]
+
+[permissions]
+files = "Read the game disc image and extracted asset files"
